@@ -4,7 +4,7 @@ export const metadata = {
   title: "All Pokémon Types | Pokédex Directory",
   description:
     "Browse a complete list of Pokémon types and explore Pokémon belonging to each type with stats and abilities.",
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://pok-dex-six.vercel.app/"),
 
   openGraph: {
     title: "All Pokémon Types",
