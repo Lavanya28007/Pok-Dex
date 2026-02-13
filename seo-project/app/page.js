@@ -101,8 +101,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER SPACING */}
-      <div className="h-16"></div>
+      {/* FOOTER SPACING
+      <div className="h-16"></div> */}
 
     </main>
   )
