@@ -10,7 +10,7 @@ export const metadata = {
     title: "All Pokémon Types",
     description:
       "Discover every Pokémon type and view Pokémon belonging to each category.",
-    url: "https://yourdomain.com/types",
+    url: "https://pok-dex-six.vercel.app/types",
     siteName: "Pokédex SEO",
     type: "website",
   },
