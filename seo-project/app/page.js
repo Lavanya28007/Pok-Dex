@@ -2,6 +2,29 @@ import Link from "next/link"
 import SearchBar from "@/components/SearchBar"
 import PokemonCard from "../components/PokemonCard"
 
+export const metadata = {
+  title: "PokéDex | Pokémon Stats Directory",
+  description:
+    "Browse Pokémon stats, abilities and types in an SEO optimized directory",
+
+  openGraph: {
+    title: "PokéDex | Pokémon Stats Directory",
+    description:
+      "Explore detailed Pokémon stats, abilities and types.",
+    url: "https://pok-dex-six.vercel.app",
+    siteName: "PokéDex",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "PokéDex Directory",
+    description:
+      "Explore Pokémon stats, abilities and types.",
+  },
+}
+
+
 export default function Home() {
 
   const pokemonList = ["pikachu","charizard","bulbasaur","squirtle","gengar","lucario"]
