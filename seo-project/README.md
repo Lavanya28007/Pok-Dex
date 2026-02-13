@@ -26,3 +26,7 @@ npm run dev
 
 ## Deployment
 This project is deployed using Vercel.
+
+## Performance Report
+Lighthouse audit report is available inside /docs folder.
+
